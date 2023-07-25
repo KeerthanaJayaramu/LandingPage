@@ -1,0 +1,16 @@
+.bgcls
+{
+    background-color:gray;
+}
+
+.imgs{
+    width:100px;
+    height:100px;
+    transition: width 3s height 3s ease;    
+}
+
+.imgs:hover{
+    width:150px;
+    height: 150px;
+    transform: rotate(180deg);
+}
